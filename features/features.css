@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #181818;
+}
+
+.my-container{
+
+    margin: 0 auto;
+    width: 1097px;
+    max-width: 1097px;
+}
+
+.header{
+    font-family: Graphik-Medium;
+    height: 119px;
+    max-height: 119px;
+    padding: 20px 20px 20px 30px;
+}
+
+
+.menu{
+    list-style-type: none;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.my-btn{
+    width: 139px;
+    height: 52px;
+    border: 1px solid #FFF;
+    background-color: #181818;
+    color:#FFF;
+}
+
+.my-btn:hover {
+    background-color: #4452FE;
+    border: none;
+    
+}
+
+
+.feature{
+    padding: 62px 50px;
+    min-height: 759px;
+}
+
+.feature .feature_title{
+    text-align: center;
+    font-family: Graphik-Regular;
+    font-size: 52px;
+    margin-bottom: 27px;
+}
+
+.feature .feature_subtitle{
+    font-family: Graphik-Regular;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px; 
+    width: 582px;
+    margin: 0 auto;
+}
+
+
+.feature .contentrows{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.feature .contentrows div {
+    padding: 10px;
+    width: 249px;
+}
+
+
+.feature .contentrows h5{
+    font-family: Graphik-Medium;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.feature .contentrows div span{
+    font-family: Graphik-Regular;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+
+.contents {
+    padding: 50px 199px;
+}
+
+
+.footer{
+    background-color: #000000;
+    height: 437px;
+    padding: 107px 0;
+}
